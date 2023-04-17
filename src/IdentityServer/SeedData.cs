@@ -17,7 +17,7 @@ public static class SeedData
             AllowedGrantTypes = new[]
                 { OidcConstants.GrantTypes.ClientCredentials },
             AllowedScopes = new[] { WeatherApiScope },
-            AccessTokenLifetime = 30
+            //AccessTokenLifetime = 30
         }
     };
 
